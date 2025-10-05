@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    
+      <div class="flex items-center justify-center min-h-screen bg-gray-100">
+        <div class="bg-white space-y-10 p-6 m-3 shadow-2xl rounded-2xl md:p-40">
+          
+          <div
+            class="flex flex-col space-y-3 items-center justify-center md:flex-row md:space-x-8 md:space-y-0 md:justify-end md:mb-24"
+          >
+            <div class="group">
+              <a href="#">Library</a>
+              <div
+                class="mt-2 mx-2 duration-1000 opacity-0 border-b-2 border-black group-hover:opacity-100"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Design</a>
+              <div
+                class="mt-2 mx-2 duration-1000 opacity-0 border-b-2 border-black group-hover:opacity-100"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Location</a>
+              <div
+                class="mt-2 mx-2 duration-1000 opacity-0 border-b-2 border-black group-hover:opacity-100"
+              ></div>
+            </div>
+          </div>
+
+          
+          <div
+            class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0"
+          >
+            <div class="flex justify-between border-b">
+              <input
+                type="text"
+                placeholder="Discover"
+                class="ml-6 border-t md:w-80 placeholder:font-thin focus:outline-none hover:border-2xl"
+              />
+
+              <!-- SVG LOOP ICON -->
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-8 text-gray-300 duration-200 hover:scale-110"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <circle cx="10" cy="10" r="7" />
+                  <line x1="21" y1="21" x2="15" y2="15" />
+                </svg>
+              </button>
+            </div>
+
+            <button
+              class="py-2 px-10 font-normal text-white text-lg bg-black border border-black rounded-2xl shadow-2xl duration-200 hover:bg-white hover:text-black"
+            >
+              Search
+            </button>
+          </div>
+
+          <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            
+            <!-- First Product -->
+            <div class="relative group">
+              <img src="images/coat.jpg" alt="" class="rounded-lg w-72" />
+              <div
+                class="absolute bottom-0 right-0 left-0 p-2 px-4 text-white duration-1000 bg-black opacity-0 group-hover:opacity-100 bg-opacity-20"
+              >
+                <div class="flex justify-between w-full">
+                  <div class="font-normal">
+                    <p class="text-sm">Moko Coat</p>
+                    <p class="text-xs">$499,99 XS - XL</p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="images/bookmark.svg" alt="Item Bookmark" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Product-->
+            <div class="relative group">
+              <img src="images/tshirt.jpg" alt="" class="rounded-lg w-72" />
+              <div
+                class="absolute bottom-0 right-0 left-0 p-2 px-4 text-white duration-1000 bg-black opacity-0 group-hover:opacity-100 bg-opacity-20"
+              >
+                <div class="flex justify-between w-full">
+                  <div class="font-normal">
+                    <p class="text-sm">Black T-Shirt</p>
+                    <p class="text-xs">$79,99 M - L</p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="images/bookmark.svg" alt="Item Bookmark" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="relative group">
+              <img src="images/trousers.jpg" alt="" class="rounded-lg w-72" />
+              <div
+                class="absolute bottom-0 right-0 left-0 p-2 px-4 text-white duration-1000 bg-black opacity-0 group-hover:opacity-100 bg-opacity-20"
+              >
+                <div class="flex justify-between w-full">
+                  <div class="font-normal">
+                    <p class="text-sm">Trousers</p>
+                    <p class="text-xs">$199,99 S - L</p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="images/bookmark.svg" alt="Item Bookmark" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="relative group">
+              <img src="images/shoes.jpg" alt="" class="rounded-lg w-72" />
+              <div
+                class="absolute bottom-0 right-0 left-0 p-2 px-4 text-white duration-1000 bg-black opacity-0 group-hover:opacity-100 bg-opacity-20"
+              >
+                <div class="flex justify-between w-full">
+                  <div class="font-normal">
+                    <p class="text-sm">Oxford Shoes</p>
+                    <p class="text-xs">$249,99 38.5 EU - 45.5 EU</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <img src="images/bookmark.svg" alt="Item Bookmark" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="relative group">
+              <img src="images/bag.jpg" alt="" class="rounded-lg w-72" />
+              <div
+                class="absolute bottom-0 right-0 left-0 p-2 px-4 text-white duration-1000 bg-black opacity-0 group-hover:opacity-100 bg-opacity-20"
+              >
+                <div class="flex justify-between w-full">
+                  <div class="font-normal">
+                    <p class="text-sm">Luxury Bag</p>
+                    <p class="text-xs">299,99</p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="images/bookmark.svg" alt="Item Bookmark" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
