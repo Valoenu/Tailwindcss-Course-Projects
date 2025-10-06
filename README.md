@@ -83,4 +83,4 @@ These projects were created to deepen my understanding of **Tailwind CSS** and m
 - **Visual consistency:** Learning how to maintain a cohesive look and feel across different pages and components.  
 - **Interactive UI elements:** Experimenting with hover effects, modals, and call-to-action elements to enhance user experience.  
 
-These exercises helped me **apply theoretical concepts in a practical, hands-on environment** and build confidence in working with Tailwind CSS for real-world projects.
+These exercises helped me **apply theoretical concepts in a practical, hands-on environment** and build confidence in working with Tailwind CSS for real-world projects. Build with help of Brad Traversy Resoucres.
